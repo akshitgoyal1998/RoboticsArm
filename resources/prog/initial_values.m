@@ -27,3 +27,10 @@ gripper.length = 0.25;
 base_dimension = [base.length base.breadth base.height];
 link1_dimension = [link1.length link1.breadth link1.height];
 link2_dimension = [link2.length link2.breadth link2.height];
+
+
+
+%% robot testing
+open_system('physicalModel.slx');
+[robot,importInfo] = importrobot(gcs);
+show(robot);
