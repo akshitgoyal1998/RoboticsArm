@@ -30,7 +30,8 @@ link2_dimension = [link2.length link2.breadth link2.height];
 
 
 
-%% robot testing
-open_system('physicalModel.slx');
-[robot,importInfo] = importrobot(gcs);
-show(robot);
+%%target point
+xtarget = 20;
+ytarget = 30;
+ztarget =40;
+
