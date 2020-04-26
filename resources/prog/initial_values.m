@@ -32,6 +32,6 @@ link2_dimension = [link2.length link2.breadth link2.height];
 
 %%target point
 xtarget = 20;
-ytarget = 30;
+ytarget = 0;
 ztarget =40;
 
