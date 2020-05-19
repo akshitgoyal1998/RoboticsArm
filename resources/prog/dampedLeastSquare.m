@@ -3,12 +3,12 @@ xt=u(1);
 yt=u(2);
 zt =u(3);
 %Dasl arm lengths
-L1=-11; L2=15; L3=10; L4=-21; L5=-8;
+L1=21; L2=58; L3=130; L4=124; L5=53;
 %Initial position
 th1 =0; th2=0; th3=0; th4=0; th5=0;
 
 %initializing the variables to control the loop
-ev1=30; ev2=30; ev3=30; i=1; n=0; status=true;
+ev1=30; ev2=30; ev3=30; n=0; status=true;
 
 
 
@@ -191,7 +191,7 @@ while (status)
     
     th1=th1+thetavector(1,1); th2=th2+thetavector(2,1); th3=th3+thetavector(3,1); th4=th4+thetavector(4,1); th5=th5+thetavector(5,1);
     
-    ev1=abs(evector(1)); ev2=abs(evector(2)); ev3=abs(evector(3))
+    ev1=abs(evector(1)); ev2=abs(evector(2)); ev3=abs(evector(3));
 end
  q_ikine=[th1 th2 th3 th4 th5]; 
  q_radians=(3.1416/180)*q_ikine;
